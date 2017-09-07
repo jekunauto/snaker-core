@@ -6,30 +6,30 @@
         <id name="taskId" type="java.lang.String">
             <column name="task_Id"/>
         </id>
-        <property name="processId" type="java.lang.String" column="process_Id" />
-        <property name="orderId" type="java.lang.String" column="order_Id" />
-        <property name="orderNo" type="java.lang.String" column="order_No" />
-		<property name="processName" type="java.lang.String" column="process_Name"/>
-		<property name="orderTitle" type="java.lang.String" column="order_Title"/>
-		<property name="instanceUrl" type="java.lang.String" column="instance_Url"/>
-        <property name="parentId" type="java.lang.String" column="parent_Id"/>
+        <property name="processId" type="java.lang.String" column="process_id" />
+        <property name="orderId" type="java.lang.String" column="order_id" />
+        <property name="orderNo" type="java.lang.String" column="order_no" />
+		<property name="processName" type="java.lang.String" column="process_name"/>
+		<property name="orderTitle" type="java.lang.String" column="order_title"/>
+		<property name="instanceUrl" type="java.lang.String" column="instance_url"/>
+        <property name="parentId" type="java.lang.String" column="parent_id"/>
         <property name="creator" type="java.lang.String" column="creator" />
-        <property name="orderCreateTime" type="java.lang.String" column="order_Create_Time"/>
-        <property name="orderExpireTime" type="java.lang.String" column="order_Expire_Time"/>
-        <property name="orderVariable" type="java.lang.String" column="order_Variable"/>
+        <property name="orderCreateTime" type="java.lang.String" column="order_create_time"/>
+        <property name="orderExpireTime" type="java.lang.String" column="order_expire_time"/>
+        <property name="orderVariable" type="java.lang.String" column="order_variable"/>
         
-        <property name="taskName" type="java.lang.String" column="task_Name"/>
-        <property name="taskKey" type="java.lang.String" column="task_Key"/>
+        <property name="taskName" type="java.lang.String" column="task_name"/>
+        <property name="taskKey" type="java.lang.String" column="task_key"/>
         <property name="operator" type="java.lang.String" column="operator" />
-        <property name="taskCreateTime" type="java.lang.String" column="task_Create_Time"/>
-        <property name="taskTakeTime" type="java.lang.String" column="task_Take_Time"/>
-        <property name="taskEndTime" type="java.lang.String" column="task_End_Time"/>
-        <property name="taskExpireTime" type="java.lang.String" column="task_Expire_Time"/>
-        <property name="actionUrl" type="java.lang.String" column="action_Url"/>
-		<property name="taskType" type="java.lang.Integer" column="task_Type"/>
-		<property name="performType" type="java.lang.Integer" column="perform_Type"/>
-		<property name="taskVariable" type="java.lang.String" column="task_Variable"/>
-		<property name="fullName" type="java.lang.String" column="full_Name"/>
-		<property name="orgName" type="java.lang.String" column="org_Name" />
+        <property name="taskCreateTime" type="java.lang.String" column="task_create_time"/>
+        <property name="taskTakeTime" type="java.lang.String" column="task_take_time"/>
+        <property name="taskEndTime" type="java.lang.String" column="task_end_time"/>
+        <property name="taskExpireTime" type="java.lang.String" column="task_expire_time"/>
+        <property name="actionUrl" type="java.lang.String" column="action_url"/>
+		<property name="taskType" type="java.lang.Integer" column="task_type"/>
+		<property name="performType" type="java.lang.Integer" column="perform_type"/>
+		<property name="taskVariable" type="java.lang.String" column="task_variable"/>
+		<property name="fullName" type="java.lang.String" column="full_name"/>
+		<property name="orgName" type="java.lang.String" column="org_name" />
     </class>
 </hibernate-mapping>
