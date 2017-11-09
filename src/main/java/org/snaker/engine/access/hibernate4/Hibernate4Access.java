@@ -22,9 +22,9 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 import org.hibernate.Session;
+import org.hibernate.engine.jdbc.connections.spi.ConnectionProvider;
 import org.hibernate.internal.SessionFactoryImpl;
 import org.hibernate.jdbc.Work;
-import org.hibernate.service.jdbc.connections.spi.ConnectionProvider;
 import org.snaker.engine.DBAccess;
 import org.snaker.engine.SnakerException;
 import org.snaker.engine.access.ScriptRunner;

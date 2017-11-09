@@ -25,8 +25,8 @@ import javax.sql.DataSource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.snaker.engine.access.AbstractDBAccess;
 import org.snaker.engine.DBAccess;
+import org.snaker.engine.access.AbstractDBAccess;
 import org.snaker.engine.entity.Process;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -124,7 +124,7 @@ public class SpringJdbcAccess extends AbstractDBAccess implements DBAccess {
 	}
 
     public Object queryCount(String sql, Object... args) {
-        return template.queryForLong(sql, args);
+       return template.queryForObject(sql, args, Long.class);
     }
 	
 	public void setLobHandler(LobHandler lobHandler) {
