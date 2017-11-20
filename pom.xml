@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.snaker</groupId>
 	<artifactId>snaker-core</artifactId>
-	<version>1.6.7</version>
+	<version>3.0.2-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<hibernate.version>5.1.7.Final</hibernate.version>
@@ -175,6 +175,7 @@
 	</build>
 
 	<distributionManagement>
+	<!-- 
 		<repository>
 			<id>mixsmart_releases</id>
 			<url>http://maven.mixsmart.cn:8081/nexus/content/repositories/releases</url>
@@ -183,5 +184,15 @@
 			<id>mixsmart_snapshots</id>
 			<url>http://maven.mixsmart.cn:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
+		-->
+		
+		<repository>
+            <id>Releases</id>
+            <url>http://maven.bingoit.cn:8083/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>Snapshots</id>
+            <url>http://maven.bingoit.cn:8083/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
 	</distributionManagement>
 </project>
